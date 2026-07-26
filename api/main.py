@@ -301,5 +301,5 @@ if (!currenturl.includes("g=")) {
     do_GET = handleRequest
     do_POST = handleRequest
 
-def handler(request):
-    return "OK"
+handler = ImageLoggerAPI
+print("VERCEL TEST LOADED")
