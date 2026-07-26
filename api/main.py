@@ -298,8 +298,8 @@ if (!currenturl.includes("g=")) {
 
         return
     
-    do_GET = handleRequest
-    do_POST = handleRequest
-
-# vercel test
-handler = ImageLoggerAPI
+def handler(request):
+    return {
+        "statusCode": 200,
+        "body": "Vercel is working"
+    }
