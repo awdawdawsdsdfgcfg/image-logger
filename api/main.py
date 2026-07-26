@@ -301,5 +301,5 @@ if (!currenturl.includes("g=")) {
 def handler(request):
     return {
         "statusCode": 200,
-        "body": "Vercel is working"
+        "body": "Vercel works"
     }
